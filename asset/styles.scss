@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Poppins:wght@500&display=swap');
+section.product{
+    .cont{
+        max-width: 1200px;
+        margin: 30px auto;
+        ul{
+            padding: 20px;
+            li{
+                list-style: none;
+                .img{
+                    img{
+                        width: 100%;
+                        padding: 15px;
+                        border: 1px solid #000;
+                    }
+                }
+                p{
+                    line-height: 1.8em;
+                    text-rendering: optimizeLegibility;
+                    font-family: sans-serif;
+                    font-size: 1em
+                }
+                h3{
+                    font-weight: bold;
+                    color: #0c0384;
+                    cursor: pointer;
+                    &:hover{
+                        color: gold;
+                    }
+                }
+                a{
+                    display: inline-block;
+                    font-weight: bold;
+                    font-size: 0.7em;
+                    margin: 2px 0 50px 0;
+                    padding: 10px;
+                    color: #0c0384;
+                    border: 1px solid #0c0384;
+                    border-radius: 10px;
+                    font-family: "Khand";
+                    &:hover{
+                        color: white;
+                        background: #0c0384;
+                    }
+
+                }
+            }
+        }
+    }
+}
+section.lining{
+   
+    .rubber{
+        background: rgb(48, 47, 53) url(../products/img/rubber-lining-systems-header.jpg);
+    }
+    .ceremic{
+        background: rgb(48, 47, 53) url(../products/img/ceremic-background.jpg);
+    }
+    .magnetic{
+        background: rgb(48, 47, 53) url(../products/img/magnet-lining.jpg);
+    }
+    .inflat{
+        background: rgb(48, 47, 53) url(../products/img/inflatable-header.jpg);
+    }
+    .conveyor{
+        background: rgb(48, 47, 53) url(../products/img/conveyor-header.jpg);
+    }
+    .screen-media{
+        background: rgb(48, 47, 53) url(../products/img/screening-media-header.jpg);
+    }
+    .pipe{
+        background: rgb(48, 47, 53) url(../products/img/pipe-lining-systems.jpg);
+    }
+    .complete{
+        background: rgb(48, 47, 53) url(../products/img/complete-systems-header.jpg);
+    }
+    .cont{
+        text-align: center;
+        margin: 100px 0px 0px 0px;
+        background-color: brown;
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: 999;
+        opacity: 1;
+        opacity: 1; 
+        .content{
+            padding: 50px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            h1{
+                text-transform: uppercase;
+            }
+            h1{
+                color: rgba(255,255,255,1);
+                font-size: 2.2em;
+                letter-spacing: 1.5px;
+                font-family: 'Khand', sans-serif;
+                font-weight: 900;
+                text-shadow:  0 0 8px rgb(5, 5, 5);
+            }
+            h6{
+                color: rgba(236,217,177,1);
+                font-size: 1em ;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 900;
+                text-shadow:  0 0 8px rgb(5, 5, 5);
+            }
+            p{
+                color: rgba(255,255,255,1);
+                line-height: 25px;
+                text-shadow:  0px 0px 8px rgb(0,0,0);
+              
+            }
+            a{
+                display: inline-block;
+                font-size: 12px;
+                font-weight: 700;
+                padding: 15px 10px;
+                color: #fff;
+                background: #0c0384;
+                border: 1px solid #fff;
+                &:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}
+section.main-content{
+    max-width: 1200px;
+    margin: 50px auto;
+    h1,h4{
+        text-transform: uppercase;
+    }
+    .links{
+        margin: 0 20px 40px 20px;
+        a{
+            color: #0c0384;
+        }
+        span{
+            color: rgba(236,217,177,1);
+        }
+    }
+    .systems > div{
+        padding: 30px 0;
+    }
+    .systems{
+        margin: 0 20px;
+        h1{
+            font-family: "Khand";
+            font-size: 3em;
+            color:#0c0384;
+            margin-bottom: 5px;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1em;
+            line-height: 30px;
+        }
+        a{
+            display: inline-block;
+            font-weight: 400;
+            font-size: 0.7em;
+            margin: 2px 0 50px 0;
+            padding: 10px;
+            color: #0c0384;
+            border: 1px solid #0c0384;
+            border-radius: 10px;
+            font-family: "Khand";
+            &:hover{
+                color: white;
+                background: #0c0384;
+            }
+
+        }
+        .featured{
+            padding: 15px 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            h5{
+                margin-bottom: -50px;
+                padding: 0;   
+            }
+            img{
+                height: 200px;
+            }
+        }
+        .gene-wear{
+            margin: 45px 10px 20px 0;
+            h2{
+                font-family: "Khand";
+                font-size: 2.5em;
+                color:#0c0384;
+                margin-bottom: 5px;
+            }
+        }
+        .flex-container{
+            .flex-items{
+                img{
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                }
+                &:first-child img{
+                    height: 300px;
+                }
+            }
+            .content{
+                font-family: 'Poppins sans-serif';
+                h4{
+                    margin-top: 10px;
+                    color:#0c0384;
+                }
+            }
+        }
+        .grid-container{
+            .col{
+                margin-top: 20px;
+                padding: 30px;
+                border: 1px solid #ccc;
+                h4{
+                    font-family: "Khand";
+                    font-size: 2em;
+                    color: #0c0384;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px){
+    .cont{
+        ul{
+            li{
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+                grid-gap: 40px;
+                h3{
+                    font-size: 1.5em;
+                }
+                .img{
+                    width: 250px;
+                    grid-column:  1/ 2;
+                    img{
+                        width: 50%;
+                    }
+                }
+                .content{
+                    grid-column: 2/ span 6;
+                    justify-items: stretch;
+                }
+            }
+        }
+    }
+    .featured{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        .content{
+            h5{
+                font-size: 1.3em;
+                color: rgba(179, 178, 179, 0.8);
+            }
+            h1{
+                font-size: 2.3em!important;
+                margin-top: 50px;
+            }
+        }
+    }
+    .flex-container{
+        .flex-items{
+            display: flex;
+            .images{
+                width: 957px;
+                margin: 20px 20px 0 20px;
+            }
+        }
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
+@media screen and (min-width: 900px){
+    section.lining{
+        .cont{
+            background-size: cover;
+            height: 500px;
+            .content{
+                width: 70%;
+                margin: 30px auto;
+                p{
+                    font-size: 1.2em
+                }
+            }
+        }
+    }
+    .cont{
+        ul{
+            li{
+                grid-gap: 0px;
+                .img{
+                    width: 40%;
+                    grid-column: 1/4;
+                }
+                .content{
+                    width: 100%;
+                    grid-column:4/ 12;
+                    margin-left: -250px;
+                    p{
+                        width:800px;
+                    }
+                    
+                }
+            }
+        }
+    }
+    .flex-container{
+        .flex-items{
+            .images{
+                width: 500px;
+               
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px){
+    .cont{
+        ul{
+            li{
+               h3,p{
+                 font-size: 2.2em;
+               }
+               
+                .img{
+                    width: 55%;
+                }
+                .content{
+                    margin-left: -220px; 
+                }
+            }
+        }
+    }
+}

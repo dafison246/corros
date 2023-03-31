@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Poppins:wght@500&display=swap");
+section.product .cont {
+  max-width: 1200px;
+  margin: 30px auto;
+}
+section.product .cont ul {
+  padding: 20px;
+}
+section.product .cont ul li {
+  list-style: none;
+}
+section.product .cont ul li .img img {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #000;
+}
+section.product .cont ul li p {
+  line-height: 1.8em;
+  text-rendering: optimizeLegibility;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+section.product .cont ul li h3 {
+  font-weight: bold;
+  color: #0c0384;
+  cursor: pointer;
+}
+section.product .cont ul li h3:hover {
+  color: gold;
+}
+section.product .cont ul li a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 0.7em;
+  margin: 2px 0 50px 0;
+  padding: 10px;
+  color: #0c0384;
+  border: 1px solid #0c0384;
+  border-radius: 10px;
+  font-family: "Khand";
+}
+section.product .cont ul li a:hover {
+  color: white;
+  background: #0c0384;
+}
+
+section.lining .rubber {
+  background: rgb(48, 47, 53) url(../products/img/rubber-lining-systems-header.jpg);
+}
+section.lining .ceremic {
+  background: rgb(48, 47, 53) url(../products/img/ceremic-background.jpg);
+}
+section.lining .magnetic {
+  background: rgb(48, 47, 53) url(../products/img/magnet-lining.jpg);
+}
+section.lining .inflat {
+  background: rgb(48, 47, 53) url(../products/img/inflatable-header.jpg);
+}
+section.lining .conveyor {
+  background: rgb(48, 47, 53) url(../products/img/conveyor-header.jpg);
+}
+section.lining .screen-media {
+  background: rgb(48, 47, 53) url(../products/img/screening-media-header.jpg);
+}
+section.lining .pipe {
+  background: rgb(48, 47, 53) url(../products/img/pipe-lining-systems.jpg);
+}
+section.lining .complete {
+  background: rgb(48, 47, 53) url(../products/img/complete-systems-header.jpg);
+}
+section.lining .cont {
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  background-color: brown;
+  width: 100%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  opacity: 1;
+  opacity: 1;
+}
+section.lining .cont .content {
+  padding: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+section.lining .cont .content h1 {
+  text-transform: uppercase;
+}
+section.lining .cont .content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2.2em;
+  letter-spacing: 1.5px;
+  font-family: "Khand", sans-serif;
+  font-weight: 900;
+  text-shadow: 0 0 8px rgb(5, 5, 5);
+}
+section.lining .cont .content h6 {
+  color: rgb(236, 217, 177);
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-shadow: 0 0 8px rgb(5, 5, 5);
+}
+section.lining .cont .content p {
+  color: rgb(255, 255, 255);
+  line-height: 25px;
+  text-shadow: 0px 0px 8px rgb(0, 0, 0);
+}
+section.lining .cont .content a {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 10px;
+  color: #fff;
+  background: #0c0384;
+  border: 1px solid #fff;
+}
+section.lining .cont .content a:hover {
+  opacity: 0.9;
+}
+
+section.main-content {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+section.main-content h1, section.main-content h4 {
+  text-transform: uppercase;
+}
+section.main-content .links {
+  margin: 0 20px 40px 20px;
+}
+section.main-content .links a {
+  color: #0c0384;
+}
+section.main-content .links span {
+  color: rgb(236, 217, 177);
+}
+section.main-content .systems > div {
+  padding: 30px 0;
+}
+section.main-content .systems {
+  margin: 0 20px;
+}
+section.main-content .systems h1 {
+  font-family: "Khand";
+  font-size: 3em;
+  color: #0c0384;
+  margin-bottom: 5px;
+}
+section.main-content .systems p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  line-height: 30px;
+}
+section.main-content .systems a {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 0.7em;
+  margin: 2px 0 50px 0;
+  padding: 10px;
+  color: #0c0384;
+  border: 1px solid #0c0384;
+  border-radius: 10px;
+  font-family: "Khand";
+}
+section.main-content .systems a:hover {
+  color: white;
+  background: #0c0384;
+}
+section.main-content .systems .featured {
+  padding: 15px 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+section.main-content .systems .featured h5 {
+  margin-bottom: -50px;
+  padding: 0;
+}
+section.main-content .systems .featured img {
+  height: 200px;
+}
+section.main-content .systems .gene-wear {
+  margin: 45px 10px 20px 0;
+}
+section.main-content .systems .gene-wear h2 {
+  font-family: "Khand";
+  font-size: 2.5em;
+  color: #0c0384;
+  margin-bottom: 5px;
+}
+section.main-content .systems .flex-container .flex-items img {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+section.main-content .systems .flex-container .flex-items:first-child img {
+  height: 300px;
+}
+section.main-content .systems .flex-container .content {
+  font-family: "Poppins sans-serif";
+}
+section.main-content .systems .flex-container .content h4 {
+  margin-top: 10px;
+  color: #0c0384;
+}
+section.main-content .systems .grid-container .col {
+  margin-top: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+section.main-content .systems .grid-container .col h4 {
+  font-family: "Khand";
+  font-size: 2em;
+  color: #0c0384;
+}
+
+@media screen and (min-width: 700px) {
+  .cont ul li {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 40px;
+  }
+  .cont ul li h3 {
+    font-size: 1.5em;
+  }
+  .cont ul li .img {
+    width: 250px;
+    grid-column: 1/2;
+  }
+  .cont ul li .img img {
+    width: 50%;
+  }
+  .cont ul li .content {
+    grid-column: 2/span 6;
+    justify-items: stretch;
+  }
+  .featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .featured .content h5 {
+    font-size: 1.3em;
+    color: rgba(179, 178, 179, 0.8);
+  }
+  .featured .content h1 {
+    font-size: 2.3em !important;
+    margin-top: 50px;
+  }
+  .flex-container .flex-items {
+    display: flex;
+  }
+  .flex-container .flex-items .images {
+    width: 957px;
+    margin: 20px 20px 0 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+@media screen and (min-width: 900px) {
+  section.lining .cont {
+    background-size: cover;
+    height: 500px;
+  }
+  section.lining .cont .content {
+    width: 70%;
+    margin: 30px auto;
+  }
+  section.lining .cont .content p {
+    font-size: 1.2em;
+  }
+  .cont ul li {
+    grid-gap: 0px;
+  }
+  .cont ul li .img {
+    width: 40%;
+    grid-column: 1/4;
+  }
+  .cont ul li .content {
+    width: 100%;
+    grid-column: 4/12;
+    margin-left: -250px;
+  }
+  .cont ul li .content p {
+    width: 800px;
+  }
+  .flex-container .flex-items .images {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cont ul li h3, .cont ul li p {
+    font-size: 2.2em;
+  }
+  .cont ul li .img {
+    width: 55%;
+  }
+  .cont ul li .content {
+    margin-left: -220px;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,32 @@
+section.ls .gallery-photo-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  margin-bottom: -300px;
+}
+section.ls .gallery-photo-container .content {
+  text-align: left;
+  margin: 20px;
+}
+section.ls .gallery-photo-container .content h1 {
+  text-transform: uppercase;
+}
+section.ls .gallery-photo-container .show-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section.ls .gallery-photo-container .show-img img {
+  width: 200px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  section.ls .gallery-photo-container .content {
+    margin-left: 60px;
+  }
+  .show-img img {
+    width: 300px;
+  }
+}/*# sourceMappingURL=gallery.css.map */
